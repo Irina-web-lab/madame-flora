@@ -20,8 +20,7 @@ html, body {
     background: url('background-vanilje2.jpg') no-repeat center center fixed;
     background-size: cover;
     max-width: 100%;
-/*     height: 2000px;
- */    backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
     scroll-behavior: smooth;
   }
 
@@ -43,7 +42,6 @@ nav {
   content: '';
   position: fixed;
   position: sticky;
-/*   width: 100%;   */
   height: 120px;
   top: 0;
   left: 0;
@@ -168,41 +166,6 @@ h3 {
   border: 1px solid #F3F3F3;
   background-color: #c5a652;
 }
-
-   /*       PROMO       */
-/* .promo {
-  background-color: #008000;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 20px 0px 0px 0px;
-  color: #FFFFFF;
-  font-family: 'ABeeZee', sans-serif;
-  font-size: 25px;
-}
-
-span {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-marquee h3 {
-  font-family: 'Alumni Sans', sans-serif; 
-  font-size: clamp(1.6rem, 1.5vw, 1.25rem); 
-  color: #F3F3F3;   
-  text-align: center;
-}
-
-@keyframes ticker {
-  0% {
-transform: translateX(0);
-}
-  to {
-transform: translate3D(-100%, 0, 0);
-}
-}
- */
 
   .promo {
     margin-top: auto;
@@ -484,8 +447,7 @@ button {
   min-height: 34vh;
   width: 100%;
   justify-content: flex-end;
-/*   position: absolute;  
- */  bottom: 0px;
+  bottom: 0px;
 }
 
 h6 {
@@ -519,22 +481,7 @@ li {
   padding: 5px;
 }
     
-/*        Scroll Btn          */     
-/* .upArrow {
-  position: fixed;
-  bottom: 700px;
-  right: 40px;
-  width: 70px;
-  height: 70px;
-  background: url(up-arrow.png);
-  background-size: cover;
-  z-index: 10;
-  cursor: pointer;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-}
- */
+
 /*      About, Information, Contact          */
 .inf {
   display: flex;
@@ -551,8 +498,6 @@ li {
   justify-items: center;   
   height: auto;
   width: auto; 
-  /*  margin: 60px;
-  padding: 15px;  */
 }
 
 .info p {
