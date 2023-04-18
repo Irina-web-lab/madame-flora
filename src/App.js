@@ -1,7 +1,7 @@
 import React from 'react';
-import { useState } from 'react';
+/* import { useState } from 'react';
 import { data } from './data';
-import './App.css';
+ */import './App.css';
 
 import {
   BrowserRouter as Router,
@@ -15,24 +15,25 @@ import About from './Pages.js/About';
 import ContactUs from './Pages.js/ContactUs';
 import Information from './Pages.js/Information';
 
-
+/* import Flowers from './Components/Flowers';
+import Promo from './Components/Promo';
+import Buttons from './Components/Buttons';
+import Carousel from './Components/Carousel';
+import Footer from './Components/Footer';     */
 import logo from './logo.png';
 import cart from './cart.png';
-import Footer from './Components.js/Footer';
-import Promo from './Components.js/Promo';
-import Buttons from './Components.js/Buttons';
-import Flowers from './Components.js/Flowers';
+
 
 
 function App() {
   
-    const [flower, setFlower] = useState(data);
+/*    const [flower, setFlower] = useState(data);
   
   const chosenFlower = (searchTerm) => {
       const newFlower = data.filter(element => element.searchTerm === searchTerm);
       setFlower(newFlower);
   }
-  
+ */  
 return (<div>
 
 <Router>
@@ -76,21 +77,34 @@ return (<div>
   <Route path="/information" element= {<Information />} /> 
   <Route path="/contactUs" element= {<ContactUs />} /> 
   </Routes>
+  
+  </Router>
 
-  <Promo />
+  
+{/*  <Promo />
   <div className="content">
         <h1 className="inf">All our flowers</h1>
     </div>
+   
     <Buttons filteredFlowers={chosenFlower}/>
     <Flowers itemForSale={flower}/>
-  <Footer />
-  </Router>
- 
+    <Carousel />    */} 
+  
+
  </div>
 )
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
 
 
 
