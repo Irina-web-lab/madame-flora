@@ -57,7 +57,7 @@ return (<div>
 
  <div className="navbar active">
   <Link to="/" className='logo'></Link>
-  <Link to="/home" className='link' aria-current="page">HOME</Link>
+  <Link to="/" className='link' aria-current="page">HOME</Link>
   <Link to="/about" className='link' aria-current="page">ABOUT US</Link>
   <Link to="/information" className='link' aria-current="page">INFORMATION</Link>
   <Link to="/contactUs" className='link' aria-current="page">CONTACTS</Link>
